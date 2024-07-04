@@ -1,0 +1,38 @@
+{
+  "Hints": [
+    {
+      "Hint": "AMS_ACT_RESUME",
+      "ID": "3",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "100#"
+        },
+        {
+          "Resource": "GPUMinFreq",
+          "Value": "100#"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_HOME",
+      "ID" : "8",
+      "Duration": "500",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "100#"
+        },
+        {
+          "Resource": "GPUMinFreq",
+          "Value": "100#"
+        }
+      ]
+    },
+    {
+      "Hint": "APP_START",
+      "Duration": "6000"
+    }
+  ]
+}
